@@ -1,0 +1,18 @@
+entity Usuarios {
+      nombreCompleto String
+      correoElectronico String
+      documento String
+      abono Long
+      estado String
+      turnosDisponibles Integer
+      turnosDisponiblesLeyenda String
+      turnosDisponiblesLeyendaHtml String
+      abonosVencimientoHtml String
+      fechaProxAptoFisico Instant
+      fechaProxAptoFisicoString Instant
+      diasRestantes Float
+      tieneDeuda Boolean
+      saldo Integer
+      domicilio String
+      barrio String
+}

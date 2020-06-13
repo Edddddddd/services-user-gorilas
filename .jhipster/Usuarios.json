@@ -1,0 +1,80 @@
+{
+    "name": "Usuarios",
+    "fields": [
+        {
+            "fieldName": "nombreCompleto",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "correoElectronico",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "documento",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "abono",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "estado",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "turnosDisponibles",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "turnosDisponiblesLeyenda",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "turnosDisponiblesLeyendaHtml",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "abonosVencimientoHtml",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fechaProxAptoFisico",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "fechaProxAptoFisicoString",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "diasRestantes",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "tieneDeuda",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "saldo",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "domicilio",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "barrio",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200518205134",
+    "entityTableName": "usuarios",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "serviceUserGorilas",
+    "applications": "*",
+    "microserviceName": "serviceUserGorilas"
+}
